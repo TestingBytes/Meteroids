@@ -6,6 +6,7 @@ cProcessInfoPlistFile /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meter
 cCpResource CinderApp.icns ./build/Debug/Meteroids.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/7d/_b9_pv2n7l3dsdbblp2wtcw00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Meteroids_Prefix-fsdrksdzccyvkfaguyeitfldergi/Meteroids_Prefix.pch.pth Meteroids_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/MeteroidsApp.o /Users/sam/Code/cinder/Meteroids/xcode/../src/MeteroidsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.o /Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids normal i386
 cTouch /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app
 
@@ -2519,13 +2520,23 @@ c000000004FADAEF30000000000005E55
 t1336782579
 s24149
 
+N/Users/sam/Code/cinder/Meteroids/xcode/../include/GameObject.h
+c00000000500A467800000000000001D9
+t1342850680
+s473
+
+N/Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp
+c00000000500A475100000000000001E1
+t1342850897
+s481
+
 N/Users/sam/Code/cinder/Meteroids/xcode/../src/MeteroidsApp.cpp
 c00000000500A42E5000000000000020F
 t1342849765
 s527
 
 N/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app
-t1342849803
+t1342850899
 s102
 
 N/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/Info.plist
@@ -2533,8 +2544,8 @@ t1342849800
 s1228
 
 N/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids
-t1342849803
-s7798200
+t1342850899
+s7800484
 
 N/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/PkgInfo
 t1342849800
@@ -2544,10 +2555,14 @@ N/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/Res
 t1342849801
 s114357
 
+N/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.o
+t1342850899
+s37876
+
 N/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/Meteroids.LinkFileList
-c00000000500A43080000000000000078
-t1342849800
-s120
+c00000000500A465300000000000000EE
+t1342850643
+s238
 
 N/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/MeteroidsApp.o
 t1342849802
@@ -2573,12 +2588,28 @@ c00000000500A42E5000000000000034F
 t1342849765
 s847
 
+CBuild AST from /Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp
+r0
+
 CBuild AST from /Users/sam/Code/cinder/Meteroids/xcode/../src/MeteroidsApp.cpp
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9b9210cf7abab541^d2e210cf7abab541^---0#1#0#--18"Check dependencies36"EFF10607-CF78-4AAB-98B3-E9455A0EDE4C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1a8b76d67ebab541^f91177d67ebab541^---0#1#0#--18"Check dependencies36"E918FE61-5E05-4328-8143-98CD882A1BF2-
+
+CCompileC ./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.o /Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s364543698.916012
+e364543699.217025
+r1
+xCompileC
+x./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.o
+x/Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp5299ead27ebab541^3a9237d37ebab541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp0000000000000000^2655"CompileC ./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.o ../src/GameObject.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sam/Code/cinder/Meteroids/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-generated-files.hmap -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-own-target-headers.hmap -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-all-target-headers.hmap -iquote /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-project-headers.hmap -iquote../../../../lib/cinder_0.8.4_mac/include -iquote../include -I/Users/sam/Code/cinder/Meteroids/xcode/build/Debug/include -I../../../../lib/cinder_0.8.4_mac/boost -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/DerivedSources/i386 -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/DerivedSources -F/Users/sam/Code/cinder/Meteroids/xcode/build/Debug -include /var/folders/7d/_b9_pv2n7l3dsdbblp2wtcw00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Meteroids_Prefix-fsdrksdzccyvkfaguyeitfldergi/Meteroids_Prefix.pch -MMD -MT dependencies -MF /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.d --serialize-diagnostics /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.dia -c /Users/sam/Code/cinder/Meteroids/xcode/../src/GameObject.cpp -o /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/GameObject.o36"D0A02487-229D-4351-A3A7-CB5A2A6BAD77-
 
 CCompileC ./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/MeteroidsApp.o /Users/sam/Code/cinder/Meteroids/xcode/../src/MeteroidsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s364542601.056784
@@ -2603,14 +2634,14 @@ x./build/Debug/Meteroids.app/Contents/Resources/CinderApp.icns
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy ./build/Debug/Meteroids.app/Contents/Resources/CinderApp.icns983303897abab541^8c8204897abab541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/Resources/CinderApp.icns000000000080d041^491"CpResource CinderApp.icns ./build/Debug/Meteroids.app/Contents/Resources/CinderApp.icns    cd /Users/sam/Code/cinder/Meteroids/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/sam/Code/cinder/Meteroids/xcode/CinderApp.icns /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/Resources36"20824091-BB72-47A5-84CE-9CCD838058E5-
 
 CLd /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids normal i386
-s364542602.951199
-e364542603.580899
+s364543699.223887
+e364543699.650359
 r1
 xLd
 x/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids4294f38a7abab541^31b6948b7abab541^---0#0#0#--997"Ld ./build/Debug/Meteroids.app/Contents/MacOS/Meteroids normal i386    cd /Users/sam/Code/cinder/Meteroids/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/sam/Code/cinder/Meteroids/xcode/build/Debug -F/Users/sam/Code/cinder/Meteroids/xcode/build/Debug -filelist /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/Meteroids.LinkFileList -mmacosx-version-min=10.5 ../../../../lib/cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids36"BBC19950-E112-4E15-BBD9-449CE08AAA7C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroidsd67039d37ebab541^417ea6d37ebab541^---0#0#0#--997"Ld ./build/Debug/Meteroids.app/Contents/MacOS/Meteroids normal i386    cd /Users/sam/Code/cinder/Meteroids/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -L/Users/sam/Code/cinder/Meteroids/xcode/build/Debug -F/Users/sam/Code/cinder/Meteroids/xcode/build/Debug -filelist /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Objects-normal/i386/Meteroids.LinkFileList -mmacosx-version-min=10.5 ../../../../lib/cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/MacOS/Meteroids36"47B867CE-AE78-415D-BA28-BD12B2AF29FE-
 
 CProcessInfoPlistFile /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app/Contents/Info.plist Info.plist
 s364542600.964001
@@ -2638,10 +2669,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Meteroids_Prefix.pchc0ae06897abab541^eecc0c897abab541^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/sam/Code/cinder/Meteroids/xcode/Meteroids_Prefix.pch0000000000000000^2717"ProcessPCH++ /var/folders/7d/_b9_pv2n7l3dsdbblp2wtcw00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Meteroids_Prefix-fsdrksdzccyvkfaguyeitfldergi/Meteroids_Prefix.pch.pth Meteroids_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sam/Code/cinder/Meteroids/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion -iquote /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-generated-files.hmap -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-own-target-headers.hmap -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-all-target-headers.hmap -iquote /Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/Meteroids-project-headers.hmap -iquote../../../../lib/cinder_0.8.4_mac/include -iquote../include -I/Users/sam/Code/cinder/Meteroids/xcode/build/Debug/include -I../../../../lib/cinder_0.8.4_mac/boost -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/DerivedSources/i386 -I/Users/sam/Code/cinder/Meteroids/xcode/./build/Meteroids.build/Debug/Meteroids.build/DerivedSources -F/Users/sam/Code/cinder/Meteroids/xcode/build/Debug --serialize-diagnostics /var/folders/7d/_b9_pv2n7l3dsdbblp2wtcw00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Meteroids_Prefix-fsdrksdzccyvkfaguyeitfldergi/Meteroids_Prefix.pch.dia -c /Users/sam/Code/cinder/Meteroids/xcode/Meteroids_Prefix.pch -o /var/folders/7d/_b9_pv2n7l3dsdbblp2wtcw00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Meteroids_Prefix-fsdrksdzccyvkfaguyeitfldergi/Meteroids_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/7d/_b9_pv2n7l3dsdbblp2wtcw00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Meteroids_Prefix-fsdrksdzccyvkfaguyeitfldergi/Meteroids_Prefix.pch.d36"C27ED502-07DE-48D2-84CC-A91715BDEC73-
 
 CTouch /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app
-s364542603.589262
-e364542603.593978
+s364543699.661291
+e364543699.670358
 r1
 xTouch
 x/Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Touch /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.appf3e4968b7abab541^4d11988b7abab541^---0#0#0#--169"Touch ./build/Debug/Meteroids.app    cd /Users/sam/Code/cinder/Meteroids/xcode    /usr/bin/touch -c /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app36"63AFDD8F-8CB1-4821-9B87-0DC1B564D855-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Touch /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.appef75aad37ebab541^c79cabd37ebab541^---0#0#0#--169"Touch ./build/Debug/Meteroids.app    cd /Users/sam/Code/cinder/Meteroids/xcode    /usr/bin/touch -c /Users/sam/Code/cinder/Meteroids/xcode/./build/Debug/Meteroids.app36"192EC70B-8358-4722-85C8-E7472C349A08-
 
